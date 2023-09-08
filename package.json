@@ -1,0 +1,19 @@
+{
+  "name": "vendor-course",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ernst-21/vendor-data.git",
+  "author": "Ernesto Rivera <riverag8504@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node \"build/index.js\""
+  },
+  "dependencies": {
+    "@aws-sdk/util-dynamodb": "^3.408.0",
+    "aws-sdk": "^2.1453.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}
