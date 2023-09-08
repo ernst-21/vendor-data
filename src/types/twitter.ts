@@ -21,7 +21,6 @@ export interface Tweet {
 }
 
 export interface Vendor {
-	id: string;
 	name: string;
 	image: string;
 	description: string;
