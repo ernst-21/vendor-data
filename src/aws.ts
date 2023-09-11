@@ -75,7 +75,7 @@ export const dynamodbCreateRecord = async (
 		console.log('Record created ');
 	} catch (error: any) {
 		if (error instanceof Error) {
-			throw error;
+			return error;
 		}
 		throw new Error(
 			`dynamodbCreateRecord error object unknown type: ${error.message}`
